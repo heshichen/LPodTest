@@ -11,6 +11,8 @@
 		3432F3979D08A6A8125EAD9A5B7EF6FF /* LPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 920A54F6DD6784D443905D910A280079 /* LPodTest-dummy.m */; };
 		4294F0A23852F5251DAAB3C23E52DE5F /* LPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD322C2E24044C858E3DB24864AF8C40 /* LPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55BC9907947DE0ED601305B85CF313E9 /* Pods-LPodTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC41725D29792D6992858D8EA9C2E29F /* Pods-LPodTest_Tests-dummy.m */; };
+		846FE58F1FA9699700D9E6B6 /* SNWebBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 846FE58C1FA9699700D9E6B6 /* SNWebBrowserViewController.h */; };
+		846FE5901FA9699700D9E6B6 /* SNWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE58D1FA9699700D9E6B6 /* SNWebBrowserViewController.m */; };
 		A5C5B0CDB707D2F6288E4CFC5E3F3851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E737889A436946E8FADD614F22002ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -34,9 +36,10 @@
 		73CAE036468B1B85ACB713C4C50F066A /* LPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LPodTest.modulemap; sourceTree = "<group>"; };
 		779FD684501594323630897543A47035 /* Pods-LPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		82279448056A3048C2227B3EC5A0EA96 /* Pods-LPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		846FE5871FA965C500D9E6B6 /* SNWebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNWebBrowserViewController.m; sourceTree = "<group>"; };
-		846FE5881FA965C500D9E6B6 /* SNWebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNWebBrowserViewController.h; sourceTree = "<group>"; };
-		846FE5891FA965C500D9E6B6 /* SNWebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SNWebBrowserViewController.xib; sourceTree = "<group>"; };
+		846FE58B1FA9699700D9E6B6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		846FE58C1FA9699700D9E6B6 /* SNWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNWebBrowserViewController.h; sourceTree = "<group>"; };
+		846FE58D1FA9699700D9E6B6 /* SNWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNWebBrowserViewController.m; sourceTree = "<group>"; };
+		846FE58E1FA9699700D9E6B6 /* SNWebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SNWebBrowserViewController.xib; sourceTree = "<group>"; };
 		879CC0DFF1AB7BBC4789CD42007FBACC /* Pods-LPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		920A54F6DD6784D443905D910A280079 /* LPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LPodTest-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -114,9 +117,7 @@
 		70B98F64957F4FDFA9D673584992D97B /* LPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				846FE5881FA965C500D9E6B6 /* SNWebBrowserViewController.h */,
-				846FE5871FA965C500D9E6B6 /* SNWebBrowserViewController.m */,
-				846FE5891FA965C500D9E6B6 /* SNWebBrowserViewController.xib */,
+				846FE58A1FA9699700D9E6B6 /* Classes */,
 				25B21E6BF87C68F3B8B1D5CFF0E88E54 /* Support Files */,
 			);
 			name = LPodTest;
@@ -132,6 +133,18 @@
 				C9194AB288ECED21BD0333E43F71073A /* Products */,
 				48BCB32135527BAD460051A94E10EC99 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		846FE58A1FA9699700D9E6B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				846FE58B1FA9699700D9E6B6 /* .gitkeep */,
+				846FE58C1FA9699700D9E6B6 /* SNWebBrowserViewController.h */,
+				846FE58D1FA9699700D9E6B6 /* SNWebBrowserViewController.m */,
+				846FE58E1FA9699700D9E6B6 /* SNWebBrowserViewController.xib */,
+			);
+			name = Classes;
+			path = LPodTest/Classes;
 			sourceTree = "<group>";
 		};
 		BA411FD958F9ED97CFFEF6629C095B29 /* Development Pods */ = {
@@ -174,6 +187,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846FE58F1FA9699700D9E6B6 /* SNWebBrowserViewController.h in Headers */,
 				4294F0A23852F5251DAAB3C23E52DE5F /* LPodTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3432F3979D08A6A8125EAD9A5B7EF6FF /* LPodTest-dummy.m in Sources */,
+				846FE5901FA9699700D9E6B6 /* SNWebBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
